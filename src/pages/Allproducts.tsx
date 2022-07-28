@@ -28,8 +28,8 @@ const Allproducts = () =>
                 <CreateProduct onCreate={ createHandler } />
             </Modal> }
             { !modal && <>
-                <button onClick={ () => openModal() } className="fixed text-white bottom-5 right-2  border-2 rounded-full bg-red-500 text-lg p-2 " >+</button>
-                <Link to={ '/' } className="fixed text-white top-5 left-2  border-2 rounded-full bg-red-500 text-lg p-2 ">←</Link>
+                <button onClick={ () => openModal() } className="fixed text-white bottom-5 right-2  border-2 rounded-full bg-yellow-500 text-lg p-2 " >+</button>
+                <Link to={ '/' } className="fixed text-white top-5 left-2  border-2 rounded-full bg-yellow-500 text-lg p-2 ">←</Link>
             </> }
         </div>
     );
